@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OLX</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container-fluid bg-light shadow p-3 mb-5 bg-body rounded">
+    <div class="container">
+      <div class="row">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link text-black" aria-current="page" href="#"><img src="./img/olxblue.png" alt="" width="60px"
+                height="30px"></a>
+          </li>
+          <li class="nav-item ">
+
+            <a class="nav-link  text-black" href="#"> <span class="car me-2"><i class="fa-solid fa-car"></i>
+              </span> Motors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-black" href="#"><span class="car me-2"><i class="fa-solid fa-building"></i></span>
+              Property</a>
+          </li>
+        </ul>
+      </div>
+
+
+      <!-- *************************SECOND NAVBAR********************************* -->
+
+      <div class="container">
+        <nav class="navbar navbar-expand-lg  ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./img/blackolx.png" alt="" width="70px"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li><select class="form" aria-label="Default select example">
+                    <option selected> Open this select menu </option>
+                    <option value="pak">Pakistan</option>
+                    <option value="kash">Kashmir</option>
+                    <option value="iran">Iran</option>
+                  </select>
+                </li>
+
+
+                <li class="ms-4">
+                  <form class="d-flex" role="search">
+                    <input class="me-2 search" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success search-btn " type="submit"><i
+                        class="fa-solid fa-magnifying-glass"></i></button>
+                  </form>
+                </li>
+
+                <div class="ms-4 opendrop">
+                  <span><u>Login</u></span>
+                  <ul class="drop-content navbar-nav">
+                    <li class="bg-warning nav-item "><a href="" class="nav-link">A</a></li>
+                    <li class="bg-warning nav-item"><a href="" class="nav-link">A</a></li>
+                  </ul>
+                </div>
+
+
+
+                <li class="ms-4" style="width: 40%;">
+                  <span class="ms-4 mt-3" style="position: absolute;"> + Sell</span>
+                  <img src="./img/outinebutton.png" alt="" width="120px">
+                </li>
+
+
+
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+    <!-- ***************THIRDNAVBAR************** -->
+
+    <div class="container-fluid bg-light shadow p-3 mb-5 bg-body rounded">
+      <!-- <div class="container"> -->
+      <ul class="nav">
+        <li class="nav-item active">
+          <a class="nav-link " aria-current="page" href="#">
+            <h6 class="text"><b>All CATEGORIES</b></h6>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text" href="#">Mobile Phones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text" href="#">Cars</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text" href="#">Motorcycles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text" href="#">Houses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text" href="#">Video-Audios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text" href="#">Tablets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text" href="#">Land & Plots</a>
+        </li>
+      </ul>
+    </div>
+
+
+
+
+    <!-- ********************************slider************************************** -->
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/28.08.2024_11.33.29_REC3.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/28.08.2024_11.33.29_REC3.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/slider2.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button> -->
+    </div>
+
+    <!-- *************slider END***************** -->
+    <div class="container">
+      <div class="row">
+        <h2 class="mt-4">All categories</h2>
+
+        <div class="card1 col-md-2 mt-4 d-flex flex-column align-items-center">
+          <div style="display: flex;justify-content: center;
+    align-items: center;width: 100px; height: 100px;">
+            <img src="./img/mobile.png" alt="" width="60px">
+          </div>
+          <div class="content">
+            <h4 class="fw-bold">Mobiles</h4>
+          </div>
+        </div>
+        <!-- ****************** -->
+        <div class="card1 col-md-2 mt-4 d-flex flex-column align-items-center">
+          <div style="display: flex;justify-content: center;
+  align-items: center;width: 100px; height: 100px;">
+            <img src="./img/car.png" alt="" width="60px">
+          </div>
+          <div class="content">
+            <h4 class="fw-bold">Vehicles</h4>
+          </div>
+        </div>
+        <!-- **************** -->
+        <div class="card1 col-md-2 mt-4 d-flex flex-column align-items-center">
+          <div style="display: flex;justify-content: center;
+  align-items: center;width: 100px; height: 100px;">
+            <img src="./img/property.png" alt="" width="60px">
+          </div>
+          <div class="content" style="text-align: center;">
+            <h4 class="fw-bold">Property For <br>Sale</h4>
+          </div>
+        </div>
+        <!-- *************** -->
+        <div class="card1 col-md-2 mt-4 d-flex flex-column align-items-center">
+          <div style="display: flex;justify-content: center;
+  align-items: center;width: 100px; height: 100px;">
+            <img src="./img/key img.png" alt="" width="60px">
+          </div>
+          <div class="content" style="text-align: center;">
+            <h4 class="fw-bold">Property For <br>Rent</h4>
+          </div>
+        </div>
+
+
+        <div class="card1 col-md-2 mt-4 d-flex flex-column align-items-center">
+          <div style="display: flex;justify-content: center;
+  align-items: center;width: 100px; height: 100px;">
+            <img src="./img/camera2.png" alt="" width="60px">
+          </div>
+          <div class="content" style="text-align: center;">
+            <h4 class="fw-bold">Electronics & <br> Home <br>Appliances</h4>
+          </div>
+        </div>
+
+        <div class="card1 col-md-2 mt-4 d-flex flex-column align-items-center">
+          <div style="display: flex;justify-content: center;
+  align-items: center;width: 100px; height: 100px;">
+            <img src="./img/bike.png" alt="" width="60px">
+          </div>
+          <div class="content">
+            <h4 class="fw-bold">Bikes</h4>
+          </div>
+        </div>
+
+        <div class="card1 col-md-2 mt-4 d-flex flex-column align-items-center">
+          <div style="display: flex;justify-content: center;
+  align-items: center;width: 100px; height: 100px;">
+            <img src="./img/jeep.png" alt="" width="60px">
+          </div>
+          <div class="content" style="text-align:center;">
+            <h4 class="fw-bold">Business,<br> Industrial & <br> Agriculture</h4>
+          </div>
+        </div>
+
+
+        <div class="card1 col-md-2 mt-4 d-flex flex-column align-items-center">
+          <div style="display: flex;justify-content: center;
+  align-items: center;width: 100px; height: 100px;">
+            <img src="./img/services.png" alt="" width="60px">
+          </div>
+          <div class="content" style="text-align: center;">
+            <h4 class="fw-bold">Services</h4>
+          </div>
+        </div>
+        <!-- *************** -->
+        <div class="card1 col-md-2 mt-4 d-flex flex-column align-items-center">
+          <div style="display: flex;justify-content: center;
+  align-items: center;width: 100px; height: 100px;">
+            <img src="./img/jobs.png" alt="" width="60px">
+          </div>
+          <div class="content" style="text-align: center;">
+            <h4 class="fw-bold">Jobs</h4>
+          </div>
+        </div>
+
+
+        <div class="card1 col-md-2 mt-4 d-flex flex-column align-items-center">
+          <div style="display: flex;justify-content: center;
+  align-items: center;width: 100px; height: 100px;">
+            <img src="./img/animals.png" alt="" width="60px">
+          </div>
+          <div class="content" style="text-align:center;">
+            <h4 class="fw-bold">Animals</h4>
+          </div>
+        </div>
+
+
+        <div class="card1 col-md-2 mt-4 d-flex flex-column align-items-center">
+          <div style="display: flex;justify-content: center;
+  align-items: center;width: 100px; height: 100px;">
+            <img src="./img/furniture-home-decor.png" alt="" width="60px">
+          </div>
+          <div class="content" style="text-align:center; font-size: 16px;">
+            <h4 class="fw-bold">Furniture & <br>Home Decor</h4>
+          </div>
+        </div>
+
+
+        <div class="card1 col-md-2 mt-4 d-flex flex-column align-items-center">
+          <div style="display: flex;justify-content: center;
+  align-items: center;width: 100px; height: 100px;">
+            <img src="./img/fashion-beauty.png" alt="" width="60px">
+          </div>
+          <div class="content" style="text-align:center; font-size: 16px;">
+            <h4 class="fw-bold">Fashion & <br> Beauty</h4>
+          </div>
+        </div>
+
+
+        <div class="card1 col-md-2 mt-4 d-flex flex-column align-items-center">
+          <div style="display: flex;justify-content: center;
+  align-items: center;width: 100px; height: 100px;">
+            <img src="./img/books.png" alt="" width="60px">
+          </div>
+          <div class="content" style="text-align:center; font-size: 16px;">
+            <h4 class="fw-bold">Books, Sports & Hobbies</h4>
+          </div>
+        </div>
+
+
+
+        <div class="card1 col-md-2 mt-4 d-flex flex-column align-items-center">
+          <div style="display: flex;justify-content: center;
+  align-items: center;width: 100px; height: 100px;">
+            <img src="./img/kids.png" alt="" width="60px">
+          </div>
+          <div class="content" style="text-align:center; font-size: 16px;">
+            <h4 class="fw-bold">Kids</h4>
+          </div>
+        </div>
+
+
+
+
+
+
+      </div>
+
+    </div>
+
+
+
+
+    <!-- ***********************End ************************* -->
+
+    <!-- ***************Cards************ -->
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <h3 class="mt-5"><b>Mobile Phones</b></h3>
+
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="./img/cardphone1.png" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h6 class="card-title"><b>Rs 88,000</b></h6>
+                <p class="card-text">Iphone 13 Pro 128 <br><br>6 days ago<span> <i class="fa-solid fa-heart"></i></span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./img/phonecard3.png" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h6 class="card-title"><b>Rs 430,000</b></h6>
+                <p class="card-text"> oppo f11 8gb 256gb <br>Mall road,Lahore <br>6 days ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./img/phonecard4.png" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h6 class="card-title"><b>Rs 61,300</b></h6>
+                <p class="card-text">IPhone 15 PRO MAX <br>Model Town, karachi <br>2weeks ago.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="./img/mob card.png" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h6 class="card-title"><b>Rs 70,000</b></h6>
+                <p class="card-text">Samsung Z Flip 6 12/256 UK <br>Johar Town Phase 1 , Lahore <br>1 week ago</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+    <!-- ***************Mobile End******************* -->
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <h3 class="mt-5"><b>Cars</b></h3>
+
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+
+          <div class="col">
+            <div class="card">
+              <img src="./img/opendoor.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h6 class="card-title"><b>Rs 9,500,000 </b></h6>
+                <p class="card-text">Honda Vezel model 2018 <br>60,000km.2018 <br>Ring Road , Peshawar <br>4 days ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="./img/latestcar2.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h6 class="card-title"><b>7,200,000</b></h6>
+                <p class="card-text">Toyota surf V6 1994/2012 <br>1 km.1994 <br>Canal City,<br>1 week ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="./img/latestcar3.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h6 class="card-title"><b>Rs 6,850,000</b></h6>
+                <p class="card-text">Honda model 2016 <br>60,000km.2015 <br>Drig Road , Peshawar <br>3 days ago</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="col">
+            <div class="card">
+              <img src="./img/53974ab0dd7e1f1d026d7fddb79efc45.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h6 class="card-title"><b>10,400,000</b></h6>
+                <p class="card-text">Honda Vezel model 2012 <br>70,000km.2018 <br>Srigh Road , Kashmir <br>4 days ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+    </div>
+    <!-- **************************Cars End************************ -->
+
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <h3 class="mt-5"><b>Bikes & Motorcycles</b></h3>
+
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="./img/360_F_37bike.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h6 class="card-title"><b>Rs 7,50,000</b></h6>
+                <p class="card-text">Suzuki GS 150 2020 <br>Beauty color <br>Empress Road , Lahore</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="./img/62582_2022_KTbike3.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h6 class="card-title"><b>Rs 6,40,000</b></h6>
+                <p class="card-text">Suzuki GS 150 2020 <br>Beauty color <br>Empress Road , Lahore</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./img/bike-909690_640.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h6 class="card-title"><b> Rs 2,10,000</b></h6>
+                <p class="card-text">Suzuki GS 150 2020 <br>Beauty color <br>Empress Road , Lahore</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./img/bike4.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h6 class="card-title"><b>Rs 2,500,000</b></h6>
+                <p class="card-text">Suzuki GS 150 2020 <br>Beauty color <br>Empress Road , Lahore</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- **************** Bikes End **************** -->
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <h3 class="mt-5"><b>Houses</b></h3>
+
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="./img/house-2.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h6 class="card-title"><b>Rs 23,000,000</b></h6>
+                <p class="card-text"> Centrally Located Corner <br>Behria Town Phase 8 <br>2 weeks ago </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="./img/house1.jpeg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h6 class="card-title"><b>Rs 40,000,000</b></h6>
+                <p class="card-text">Centrally Located Corner <br>Behria Town Phase 8 <br>2 weeks ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./img/house1.jpeg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h6 class="card-title"><b>Rs 30,000,000</b></h6>
+                <p class="card-text">Centrally Located Corner <br>Behria Town Phase 8 <br>2 weeks ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./img/house4.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h6 class="card-title"><b>Rs 90,000,000</b></h6>
+                <p class="card-text">Centrally Located Corner <br>Behria Town Phase 8 <br>2 weeks ago</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- ****************House End********************* -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <h3 class="mt-5"><b>Video-Audios</b></h3>
+
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="./img/audio video2.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a below as a natural lead-in to additional content. This content is a
+                  little bit longer.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="./img/-video-audio 3.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a below as a natural lead-in to additional content. This content is a
+                  little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./img/audio-video-pic 1.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a below as a natural lead-in to additional content. This content is a
+                  little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./img/Audio-Video.4.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a below as a natural lead-in to additional content. This content is a
+                  little bit longer.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <!-- *******************Video-Audio End********************* -->
+    <div class="container-fluid">
+      <div class="row">
+        <h3 class="mt-5"><b>Tablets</b></h3>
+
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="./img/tab1.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a below as a natural lead-in to additional content. This content is a
+                  little bit longer.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="./img/tab2.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a below as a natural lead-in to additional content. This content is a
+                  little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./img/tab3.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a below as a natural lead-in to additional content. This content is a
+                  little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./img/tab4.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a below as a natural lead-in to additional content. This content is a
+                  little bit longer.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <!-- **************************Tablets End********************** -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <h3 class="mt-5"><b>landing</b></h3>
+
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="./img/landing1.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a below as a natural lead-in to additional content. This content is a
+                  little bit longer.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="./img/landing2.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a below as a natural lead-in to additional content. This content is a
+                  little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./img/land3.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a below as a natural lead-in to additional content. This content is a
+                  little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./img/landimg4.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a below as a natural lead-in to additional content. This content is a
+                  little bit longer.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- **********************landing End*********************** -->
+
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <h3 class="mt-5"><b>jobs</b></h3>
+
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="./img/1job.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a below as a natural lead-in to additional content. This content is a
+                  little bit longer.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="./img/job5.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a below as a natural lead-in to additional content. This content is a
+                  little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./img/job2.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a below as a natural lead-in to additional content. This content is a
+                  little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./img/jobs1.jpg" class="card-img-top" alt="..." height="170px">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a below as a natural lead-in to additional content. This content is a
+                  little bit longer.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+    <!-- ************************************* cards end ************************************** -->
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/bottom img.png" class="d-block w-100 mt-3" alt="...">
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- **********footer******** -->
+
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-2">
+          <h6>POPULAR <br>CATEGORIES</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cars</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Flats for rent</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mobile phones</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Jobs</a></li>
+
+          </ul>
+        </div>
+
+        <div class="col-2">
+          <h6>TRENDING <br>SEARCHES</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Bikes</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Watches</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Books</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">dogs</a></li>
+
+          </ul>
+        </div>
+
+        <div class="col-2">
+          <h6>ABOUT US</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Dubizzle Group</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">OLX Blog</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">OLX for Business</a></li>
+
+          </ul>
+        </div>
+
+        <div class="col-2">
+          <h6>OLX</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Help</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sitemap</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms of Use</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy Policy</a></li>
+
+          </ul>
+        </div>
+
+        <div class="col-2 offset-1">
+          <form>
+            <h6><b>FOLLOW US</b></h6>
+            <span style="font-size: 30px;"> <i class="fa-brands fa-twitter"> </i></span><span style="font-size: 30px;">
+              <i class="fa-brands fa-facebook"> </i></span>
+            <span style="font-size: 30px;"> <i class="fa-brands fa-youtube"> </i></span> <span style="font-size: 30px;">
+              <i class="fa-brands fa-square-instagram"> </i></span>
+            <div class="d-flex w-100 gap-2">
+              <span style="width: 100px;height: 70px;"><img src="./img/footerimg1.svg" alt="" style="width: 100px;"
+                  height="70px"> </span> <span style="width: 100px; height: 70px;"><img src="./img/footer img2.svg"
+                  alt="" width="100px" height="70px"></span> <span style="width: 100px; height: 70px;"><img
+                  src="./img/footer img3.svg" alt="" width="100px" height="70px"></span>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-end py-4 my-4 border-top" style="background-color: rgb(119, 231, 119);">
+        <p> Free Classifieds in Pakistan .© 2006-2024 OLX</p>
+
+      </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

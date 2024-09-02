@@ -1,0 +1,97 @@
+.car {
+    background-color: rgb(244, 241, 241);
+    padding: 8px;
+    border-radius: 50%;
+    color: grey;
+}
+
+.form,
+.search {
+    height: 50px;
+    width: 250px;
+    border-radius: 8px;
+    transition: 0.4s;
+
+}
+
+.form:focus {
+    outline: 2px solid aquamarine;
+    border: none;
+}
+
+.search:focus {
+    outline: 1px solid aquamarine;
+    border: none;
+
+}
+
+.search {
+    height: 50px;
+    width: 350px;
+    /* border-bottom-left-radius:10px;
+    border-top-right-radius:10px ; */
+
+}
+
+.search-btn {
+    margin-left: -10px;
+    /* border-bottom-right-radius: 10px;
+    border-top-right-radius:10px; */
+}
+
+.drop-content {
+    display: none;
+    background-color: aqua;
+    transition: 0.4s;
+    width: 100%;
+}
+
+.opendrop {
+    margin-top: 10px;
+    width: 200px;
+    transition: 0.4s;
+}
+
+.opendrop:hover .drop-content {
+    display: block;
+}
+
+
+
+.opendrop {
+    display: flex;
+}
+
+.text {
+    color: black;
+}
+
+.image {
+    display: flex;
+    height: 230px;
+    width: 70%;
+    /* margin-top: 20px;
+    margin-left:170px ; */
+}
+
+.cat-area {
+    margin-top: 30px;
+
+}
+
+.cat-card {
+    max-width: 100px;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px 20px;
+    padding-right: 10px;
+    font-size: 14px;
+
+}
+
+.cat-card>img {
+    width: 80px;
+
+}
